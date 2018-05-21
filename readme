@@ -1,0 +1,2 @@
+gunicorn -b :9527 webhookmail:app --daemon
+gunicorn --reload

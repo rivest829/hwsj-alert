@@ -3,7 +3,7 @@
 
 import elasticsearch
 
-es = elasticsearch.Elasticsearch(hosts="10.70.147.136:9200")
+es = elasticsearch.Elasticsearch(hosts="*:9200")
 
 #time_range:
 #unit:m for minutes ,h for hours
